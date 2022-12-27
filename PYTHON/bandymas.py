@@ -43,3 +43,32 @@
 #     print(next)
 # print('---------------')
 # print('---------------')
+
+#
+# x = datetime.datetime.today()
+# print(x)
+#
+# y = datetime.datetime.today().time()
+# print(y)
+# print('---------------')
+# print('---------------')
+#
+# now = datetime.datetime.now()
+# print(now)
+# print(now - datetime.timedelta(days=5, hours=10))
+# print('---------------')
+# print('---------------')
+#
+# try:
+#     skaicius = int(input('Iveskite skaiciu: '))
+# except:
+#     print('Ne skaicius')
+# print('---------------')
+# print('---------------')
+
+while True:
+    try:
+        x = int(input('Iveskite skaiciu: '))
+        break
+    except ValueError:
+        print("Ivedete ne skaiciu. Bandom dar karta")
